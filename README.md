@@ -1,0 +1,1 @@
+# Repositório para alguns exercícios práticos de lógica em pascal
