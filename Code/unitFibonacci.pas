@@ -32,36 +32,17 @@ implementation
 procedure TForm1.btnCalcularClick(Sender: TObject);
  var
   contador, qnt:integer;
-
-
-begin
-
-  contador := 0;
-  qnt := StrToInt (edtEntrada.Text);
+  begin
+    memResultado.Lines.Clear;
+    memResultado.Visible:=true;
+    contador:=0;
+    qnt:=StrToInt(edtEntrada.Text);
 
     while contador <= qnt do
-      begin
-        memResultado.Lines.Add( intToStr (contador)) ;
-        Inc (contador);
-      end;
-
-begin
-
+    begin
+      memResultado.Lines.Add(intToStr(contador)) ;
+      Inc(contador);
+    end;
   memResultado.Lines.Add('Finalizado');
-end;
-
-
-
-
-
-
-
-
-end;
-
-
-
-
-
-
+  end;
 end.

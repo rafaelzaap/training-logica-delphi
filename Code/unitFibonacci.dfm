@@ -42,10 +42,9 @@ object Form1: TForm1
     Width = 96
     Height = 163
     DoubleBuffered = False
-    Lines.Strings = (
-      'memResultado')
     ParentDoubleBuffered = False
     TabOrder = 1
+    Visible = False
   end
   object edtEntrada: TEdit
     Left = 218
